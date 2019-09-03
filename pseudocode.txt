@@ -1,0 +1,37 @@
+prompt user for exam scores (ten scores)
+get scores using a for loop
+
+
+double sum = 0;
+double userScore; 
+double average;
+get userScore: 
+for (Integer counter = 0; counter < 10; counter++) {
+prompt user for score
+get score
+add score to sum (sum += userScore; )}
+Calculate average (avg = sum / 10) 
+Return Average to console 
+
+
+
+2. How much water runs off the roof 
+
+Declare Integer length;
+declare integer width;
+declare Integer lengthInInches; 
+declare integer widthInInches;
+declare integer inchesOfRainfall;
+declare integer cubicInches;
+declare double gallons;
+
+prompt user for length and width;
+get length and width:
+lengthInInches = length * 12; 
+widthInInches = width * 12;
+prompt user for inchesOfRainfall;
+
+cubicInches = (lengthInInches * widthInInches * inchesOfRainfall); 
+
+gallons = cubicInches/231;
+
